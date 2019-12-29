@@ -1,0 +1,58 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+  }
+  
+  .box {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .logo {
+  width: 40%;
+  display: flex;
+  }
+  
+  .logo_box {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+  }
+  .header {
+    color: white;
+    font-size: 30pt;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .welcome {
+    bottom: 0;
+    color: white;
+    font-size: 20pt;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  
+  .social-footer {
+      display: flex;
+      padding-top: 60px;
+      padding-bottom: 20px;
+      text-align: center;
+      justify-content: center;
+  }
+  
