@@ -1,3 +1,6 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
 
   .box {
     position: fixed;
@@ -15,7 +18,7 @@
     bottom: 0;
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    /* object-fit: cover; */
     z-index: -2;
   }
   
@@ -36,9 +39,10 @@
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 10px;
   }
+
   .welcome {
     bottom: 0;
     color: white;
@@ -58,4 +62,30 @@
       justify-content: center;
   }
   
- 
+
+  ul.topnavblack {
+    padding: 0px 0px 0px 0px;
+    align-items: baseline;
+    text-align: center;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+
+  .topnav a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  li.topnav {
+    display: inline;
+    padding: 10px 5vw 10px 5vw;
+    }
+
+  li.topnav a:hover {
+    color: rgb(228, 204, 224);
+    font-weight: lighter;
+    }
+
+  h1 {
+    font-family: inherit;
+  }

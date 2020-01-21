@@ -52,27 +52,29 @@ body {
     padding: 10px 0px 10px 0px;
     align-items: baseline;
     text-align: center;
+    color: transparent;
   }
   
-  .topnav a {
+  /* .topnav a {
     color: transparent;
     text-decoration: none;
-  }
+  } */
   
   li.topnav {
     display: inline;
     padding: 10px 5vw 10px 5vw;
     }
   
-  body{margin: 0px;
+  body {
+    margin: 0px;
   }
   
-ul.topnavblack {
-    padding: 00px 0px 0px 0px;
+/* ul.topnavblack {
+    padding: 0px 0px 0px 0px;
     align-items: baseline;
     text-align: center;
     background-color: transparent;
-    }
+    } */
   
   .topnavblack a {
     color: black;
@@ -83,24 +85,17 @@ ul.topnavblack {
 li.topnavblack {
     display: inline-block;
     margin: 10px 6% 10px 6%;
-    }
+  }
   
-ul.topnavblack:hover {
-    background-color: lightgrey;
-    /* margin-inline-start: 30px; */
-    /* margin-inline-end: 30px; */
-    /* The above margin inlines were making the items 'jump' when hovered over. SH */
-    }
-  
-.topnavblack a:hover {
+li.topnav a:hover {
     color: white;
     font-weight: lighter;
     }
   
-    .topnavblack {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+  .topnavblack {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   }
   
   ul.topnavblack {
@@ -108,22 +103,13 @@ ul.topnavblack:hover {
     align-items: baseline;
     text-align: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: transparent;
   }
 
 li.topnavblack {
     display: inline-block;
     margin: 10px 4% 10px 4%;
   }
-
-ul.topnavblack:hover {
-    background-color: lightgrey;
-}
-
-.topnavblack a:hover {
-  color: white;
-  font-weight: lighter;
-} 
 
 
   .wrapper {
