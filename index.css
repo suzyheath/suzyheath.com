@@ -58,14 +58,14 @@ body {
   
   .social-footer {
       display: flex;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       text-align: center;
       justify-content: center;
       color: whitesmoke;
       background-color: lightgrey;
       font-size: 18px;
-      width: 20vw;
+      width: 15vw;
       margin: auto;
       border-radius: 10px;
   }
@@ -106,7 +106,7 @@ body {
     }
 
   li.topnav a:hover {
-    color: rgb(228, 204, 224);
+    color: darkmagenta(228, 204, 224);
     font-weight: lighter;
     }
 
