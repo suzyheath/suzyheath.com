@@ -56,18 +56,25 @@ body {
     /* padding-left: 10px; */
   }
   
+  .homepage-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .social-footer {
       display: flex;
       padding-top: 15px;
       padding-bottom: 15px;
       text-align: center;
       justify-content: center;
-      color: whitesmoke;
-      background-color: lightgrey;
+      color: pink;
+      background-color: rgb(168, 50, 117, 0.6);
       font-size: 18px;
-      width: 15vw;
+      width: 200px;
       margin: auto;
       border-radius: 10px;
+      /* border-color: black; */
+      
   }
   
 
@@ -76,7 +83,8 @@ body {
     align-items: baseline;
     text-align: center;
     justify-content: space-between;
-    background-color:rgb(255, 255, 255, 0.5);
+    /* background-color:rgb(255, 255, 255, 0.5); */
+    background-color: black;
     margin: 0;
     padding: 15px 0px 15px 0px;
   }
