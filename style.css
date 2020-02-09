@@ -99,11 +99,11 @@ li.topnav a:hover {
   }
   
   ul.topnavblack {
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     align-items: baseline;
     text-align: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: white;
   }
 
 li.topnavblack {
