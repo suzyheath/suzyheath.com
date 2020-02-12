@@ -85,10 +85,10 @@ li.topnav a:hover {
     }
   
 .topnavblack {
-position: -webkit-sticky; /* Safari */
+position: -webkit-sticky; 
 position: sticky;
 top: 0;
-}
+} /* Safari */
   
 ul.topnavblack {
   padding: 10px 0px 10px 0px;
@@ -149,7 +149,7 @@ li.topnavblack {
     margin: 10px 4% 10px 4%;
   } */
 
-  <-- begin -->
+  /* <-- begin --> */
 
   .topnavblack a {
     color: black;
