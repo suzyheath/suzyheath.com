@@ -288,3 +288,16 @@ li.topnavblack {
     padding-bottom: 20px;
   }
   
+  .contact-form {
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: archivo black;
+    color: black;
+    font-size: 18px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    text-decoration: none;
+  }
