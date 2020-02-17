@@ -109,15 +109,11 @@ ul.topnavblack {
   background-color: white;
 }
 
-li.topnavblack {
+/* li.topnavblack {
     display: inline-block;
     margin: 10px 4% 10px 4%;
-  }
+  } */
 
-li.topnav {
-  display: inline;
-  padding: 10px 5vw 10px 5vw;
-  }
 
 .topnavblack a {
   color: black;
@@ -126,15 +122,15 @@ li.topnav {
   font-family: archivo black;
   }
   
-li.topnavblack {
+/* li.topnavblack {
     display: inline-block;
     margin: 10px 6% 10px 6%;
-  }
+  } */
 
-li.topnav {
+/* li.topnav {
   display: inline;
   padding: 10px 5vw 10px 5vw;
-  }
+  } */
 
 li.topnav a:hover {
     color: lime;
@@ -146,19 +142,19 @@ position: -webkit-sticky; /* Safari */
 position: sticky;
 top: 0;
 }
-  
+/*   
 ul.topnavblack {
   padding: 10px 0px 10px 0px;
   align-items: baseline;
   text-align: center;
   justify-content: space-between;
   background-color: white;
-}
+} */
 
-li.topnavblack {
+/* li.topnavblack {
     display: inline-block;
     margin: 10px 4% 10px 4%;
-  } */
+  } */ */
 
   /* <-- begin --> */
 
@@ -169,14 +165,14 @@ li.topnavblack {
     font-family: archivo black;
     }
     
-  li.topnavblack {
+  /* li.topnavblack {
       display: inline-block;
       margin: 10px 6% 10px 6%;
-    }
+    } */
   
   li.topnav {
     display: inline;
-    padding: 10px 5vw 10px 5vw;
+    padding: 10px 4vw 10px 4vw;
     }
   
   li.topnav a:hover {
@@ -197,11 +193,11 @@ li.topnavblack {
     justify-content: space-between;
     background-color: white;
   }
-  
+/*   
   li.topnavblack {
       display: inline-block;
       margin: 10px 4% 10px 4%;
-    }
+    } */
 
 .wrapper {
   padding-top: 10px;
